@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Video Compilation Page</title>
+</head>
+
+<body>
+    <main>
+        <h1>Doing web stuff with videos</h1>
+        <p>
+            This is going to provide an example of how stuff <br>
+            can be embedded into pages. 
+        </p>
+        <section>
+            <h2>Mortch Flounder Pounder</h2>
+            <p>
+                Look at these runs. SO BAD KEKW
+            </p>
+            <iframe
+                src="https://www.youtube.com/embed/PUpWvTP8i1g"
+                title="Mortchin it"
+                height="480"
+                width="640" 
+            />
+            </iframe>
+        </section>
+        <section>
+            <h2>Bawkbacock</h2>
+            <p>
+                Skeet to the beat, and hold W.
+            </p>
+            <iframe 
+                src="https://www.youtube.com/embed/fbj0MU99j-U"
+                title="Dance Kirby Dance"
+                height="480"
+                width="640"
+            />
+            </iframe>
+        </section>
+        <section>
+            <h2>Maxypubes</h2>
+            <p>
+                I'm not cutting my hair. or washing it.
+            </p>
+            <iframe
+                src="https://www.youtube.com/embed/aOooxIH9mHc"
+                title="Granny, I'm here!"
+                height="480"
+                width="640"
+            />
+            </iframe>
+        </section>
+    </main>
+</body>
+
+</html>
