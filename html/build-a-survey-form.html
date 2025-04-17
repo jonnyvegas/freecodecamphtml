@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">A page title</h1>
+    
+    <p id="description">
+      a short explanation
+    </p>
+    
+    <form id="survey-form">
+      
+      <label id="name-label">
+        Name:
+        <input 
+        id="name" 
+        type="text"
+        required
+        placeholder="e.g. Not Sure"
+        />
+      </label>
+<br>
+      <label id="email-label">
+        Email Address:
+        <input
+        id="email"
+        type="email"
+        required
+        placeholder="me@lol.com"
+        />
+      </label>
+ <br>     
+      <label id="number-label"> 
+        Some numerical info: 
+        <input
+        id="number"
+        type="number"
+        min="3"
+        max="69"
+        placeholder="25"
+        />
+      </label>
+  <br>    
+      <select id="dropdown">
+        <option>Did good</option>
+        <option>Did bad</option>
+      </select>
+      <br>
+      <input type="radio" value="first" name="survey" />
+      <label>The first one</label>
+      <input type="radio" value="second" name="survey" /><label>The second one</label>
+      <input type="radio" value="third" name="survey" /><label>The third one</label>
+
+<br>
+
+      <input type="checkbox" value="great"/>
+      <label>Great</label>
+      <input type="checkbox" value="good"/>
+      <label>Good</label>
+      <input type="checkbox" value="avg"/>
+      <label>Just OK</label>
+      <input type="checkbox" value="bad"/>
+      <label>Bad</label>
+      <input type="checkbox" value="worst"/>
+      <label>WTFFFFF</label>
+
+      <textarea rows="10" cols="50" placeholder="add a comment!"></textarea>
+
+      <button id="submit" type="submit">Submit</button>
+    </form>
+  </body>
+</html>
