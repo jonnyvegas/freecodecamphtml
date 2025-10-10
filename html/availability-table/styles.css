@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --color0: #000;
+  --color1: #fff;
+  --color2: #036FFC;
+  --color3: #0266E6;
+  --color4: #0247A2;
+  --color5: #0074A3;
+  --solid-border: 1px solid black;
+  --dashed-border: 1px dashed black;
+}
+
+html {
+  height: 100%;
+  font-family: Arial;
+}
+
+body {
+  background-color: #00F2FF;
+}
+
+.available-0 {
+  background-color: var(--color0);
+}
+
+.available-1 {
+  background-color: var(--color1);
+}
+
+.available-2 {
+  background-color: var(--color2);
+}
+
+.available-3 {
+  background-color: var(--color3);
+}
+
+.available-4 {
+  background-color: var(--color4);
+}
+
+.available-5 {
+  background-color: var(--color5);
+}
+
+table {
+  border-collapse: collapse;
+  table-layout: auto;
+}
+
+.sharp td {
+  border-bottom: var(--solid-border);
+}
+
+.half td{
+  border-bottom: var(--dashed-border);
+}
+
+tr > td {
+  padding: 0;
+  height: 20px;
+  border-left: var(--solid-border);
+  border-right: var(--solid-border);
+  width: 20%;
+}
+
+th {
+  padding: 0;
+}
+
+.no-border {
+  border: none;
+}
+
+.container {
+  margin: 50px auto;
+}
+
+.time {
+  padding-right: 15px;
+}
+
+#legend {
+  margin: 25px auto;
+}
+
+#legend-gradient {
+  width: 200px;
+  height: 20px;
+  margin-top: 5px;
+  border: 1px solid #000;
+  background-image: linear-gradient(to right,
+    var(--color0) 0% 10%,
+    var(--color1) 20% 40%,
+    var(--color2) 40% 60%,
+    var(--color3) 60% 80%,
+    var(--color4) 80% 90%,
+    var(--color5) 90% 100%
+  );
+}
