@@ -1,0 +1,17 @@
+console.log("Hello! I'm your coding fun fact guide!");
+let botName, botLocation, favoriteLanguage;
+botName = "Chortemer";
+botLocation = "Your Chonda";
+favoriteLanguage = "C++";
+let introSentence = "My name is " + botName + " and I live on " + botLocation + ".";
+console.log(introSentence);
+let favLangSentence = "My favorite programming language is " + favoriteLanguage + ".";
+console.log(favLangSentence);
+let codingFact = favoriteLanguage + " requires you to do your own memory management, unless you're using unreal and UObjects, in which case they are handled automagically.";
+console.log(codingFact);
+codingFact = favoriteLanguage + " does not use multiple inheritence, which keeps things more clear and concise.";
+console.log(codingFact);
+codingFact = favoriteLanguage + " uses pointers to point to places in memory and then these are de-referenced so that many pointers can point to the same place in memory and get the same information.";
+console.log(codingFact);
+let goodbyeMsg = "It was fun sharing these facts with you. Goodbye! - " + botName + " from " + botLocation + ".";
+console.log(goodbyeMsg);
