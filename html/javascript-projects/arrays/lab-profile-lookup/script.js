@@ -1,0 +1,49 @@
+let contacts = [
+  {
+    firstName: "Akira",
+    lastName: "Laine",
+    number: "0543236543",
+    likes: ["Pizza", "Coding", "Brownie Points"],
+  },
+  {
+    firstName: "Harry",
+    lastName: "Potter",
+    number: "0994372684",
+    likes: ["Hogwarts", "Magic", "Hagrid"],
+  },
+  {
+    firstName: "Sherlock",
+    lastName: "Holmes",
+    number: "0487345643",
+    likes: ["Intriguing Cases", "Violin"],
+  },
+  {
+    firstName: "Kristian",
+    lastName: "Vos",
+    number: "unknown",
+    likes: ["JavaScript", "Gaming", "Foxes"],
+  },
+];
+
+function lookUpProfile(name, prop)
+{
+  for(const contact of contacts)
+  {
+    if(Object.hasOwn(contact, "firstName") && Object.hasOwn(contact, "lastName"))
+    {
+      if(contact.firstName === name || contact.lastName === name)
+      {
+        if(!Object.hasOwn(contact, prop))
+        {
+          return "No such property";
+        }
+        else 
+        {
+          return contact[prop];
+        }
+      }
+    }
+  }
+  return "No such contact";
+}
+
