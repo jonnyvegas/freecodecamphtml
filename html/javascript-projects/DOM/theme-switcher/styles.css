@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  transition: background 0.3s, color 0.3s;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+#status {
+  text-align: center;
+  min-height: 20px;
+}
+
+.theme-light {
+  background-color: lightgrey;
+  color:black;
+}
+
+.theme-dark {
+  background-color: black;
+  color: lightgrey;
+}
+
+.theme-blues {
+  background-color: rgb(100,100, 250);
+  color:orange;
+}
+
+#message {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  font-size: 48px;
+}
