@@ -1,0 +1,53 @@
+body {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Verdana";
+  padding-top: 7.5%;
+  background: rgb(11, 59, 106);
+  color: darkgrey;
+}
+
+#input-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  background: darkgrey;
+  height: 250px;
+  width: 750px;
+  border-radius: 25px;
+  color: black;
+  flex-direction: column;
+}
+
+#result {
+  padding-top: 3%;
+  font-size: 24px;
+  color: black;
+  text-align: center;
+}
+
+#text-input {
+  font-size: 24px;
+  width: 350px;
+  background: darkgrey;
+  border-style: none;
+  border-bottom: 2px solid black;
+  text-align: center;
+  height: 50px;
+}
+
+#check-btn{
+  font-size: 18px;
+  margin-left: 25px;
+  width: 100px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+p {
+  font-size: 24px;
+}
